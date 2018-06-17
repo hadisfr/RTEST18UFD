@@ -107,12 +107,12 @@ button{
     text-indent: -20px;
 }
 
-/*.group:hover .content,*/ .group.selected .content {
+.group.selected .content {
     height: 50vh;
     padding: 10px 36px;
 }
 
-/*.group:hover .content > *,*/ .group.selected .content > * {
+.group.selected .content > * {
     display: block;
 }
 
